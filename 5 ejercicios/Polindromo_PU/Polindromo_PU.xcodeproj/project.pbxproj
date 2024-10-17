@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7704FA092CC0767800A1D977 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7704FA082CC0767800A1D977 /* AppDelegate.swift */; };
+		7704FA0B2CC0767800A1D977 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7704FA0A2CC0767800A1D977 /* SceneDelegate.swift */; };
+		7704FA0D2CC0767800A1D977 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7704FA0C2CC0767800A1D977 /* ViewController.swift */; };
+		7704FA102CC0767800A1D977 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7704FA0E2CC0767800A1D977 /* Main.storyboard */; };
+		7704FA132CC0767800A1D977 /* Polindromo_PU.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7704FA112CC0767800A1D977 /* Polindromo_PU.xcdatamodeld */; };
+		7704FA152CC0767E00A1D977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7704FA142CC0767E00A1D977 /* Assets.xcassets */; };
+		7704FA182CC0767E00A1D977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7704FA162CC0767E00A1D977 /* LaunchScreen.storyboard */; };
+		7704FA232CC0767E00A1D977 /* Polindromo_PUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7704FA222CC0767E00A1D977 /* Polindromo_PUTests.swift */; };
+		7704FA2D2CC0767F00A1D977 /* Polindromo_PUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7704FA2C2CC0767F00A1D977 /* Polindromo_PUUITests.swift */; };
+		7704FA2F2CC0767F00A1D977 /* Polindromo_PUUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7704FA2E2CC0767F00A1D977 /* Polindromo_PUUITestsLaunchTests.swift */; };
+		7704FA3D2CC076AE00A1D977 /* polindromo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7704FA3C2CC076AE00A1D977 /* polindromo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7704FA1F2CC0767E00A1D977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7704F9FD2CC0767800A1D977 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7704FA042CC0767800A1D977;
+			remoteInfo = Polindromo_PU;
+		};
+		7704FA292CC0767F00A1D977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7704F9FD2CC0767800A1D977 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7704FA042CC0767800A1D977;
+			remoteInfo = Polindromo_PU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7704FA052CC0767800A1D977 /* Polindromo_PU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polindromo_PU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7704FA082CC0767800A1D977 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7704FA0A2CC0767800A1D977 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7704FA0C2CC0767800A1D977 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7704FA0F2CC0767800A1D977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7704FA122CC0767800A1D977 /* Polindromo_PU.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Polindromo_PU.xcdatamodel; sourceTree = "<group>"; };
+		7704FA142CC0767E00A1D977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7704FA172CC0767E00A1D977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7704FA192CC0767E00A1D977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7704FA1E2CC0767E00A1D977 /* Polindromo_PUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Polindromo_PUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7704FA222CC0767E00A1D977 /* Polindromo_PUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polindromo_PUTests.swift; sourceTree = "<group>"; };
+		7704FA282CC0767F00A1D977 /* Polindromo_PUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Polindromo_PUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7704FA2C2CC0767F00A1D977 /* Polindromo_PUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polindromo_PUUITests.swift; sourceTree = "<group>"; };
+		7704FA2E2CC0767F00A1D977 /* Polindromo_PUUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polindromo_PUUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7704FA3C2CC076AE00A1D977 /* polindromo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = polindromo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7704FA022CC0767800A1D977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7704FA1B2CC0767E00A1D977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7704FA252CC0767F00A1D977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7704F9FC2CC0767800A1D977 = {
+			isa = PBXGroup;
+			children = (
+				7704FA3B2CC0768D00A1D977 /* Polindromo_class */,
+				7704FA072CC0767800A1D977 /* Polindromo_PU */,
+				7704FA212CC0767E00A1D977 /* Polindromo_PUTests */,
+				7704FA2B2CC0767F00A1D977 /* Polindromo_PUUITests */,
+				7704FA062CC0767800A1D977 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7704FA062CC0767800A1D977 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7704FA052CC0767800A1D977 /* Polindromo_PU.app */,
+				7704FA1E2CC0767E00A1D977 /* Polindromo_PUTests.xctest */,
+				7704FA282CC0767F00A1D977 /* Polindromo_PUUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7704FA072CC0767800A1D977 /* Polindromo_PU */ = {
+			isa = PBXGroup;
+			children = (
+				7704FA082CC0767800A1D977 /* AppDelegate.swift */,
+				7704FA0A2CC0767800A1D977 /* SceneDelegate.swift */,
+				7704FA0C2CC0767800A1D977 /* ViewController.swift */,
+				7704FA0E2CC0767800A1D977 /* Main.storyboard */,
+				7704FA142CC0767E00A1D977 /* Assets.xcassets */,
+				7704FA162CC0767E00A1D977 /* LaunchScreen.storyboard */,
+				7704FA192CC0767E00A1D977 /* Info.plist */,
+				7704FA112CC0767800A1D977 /* Polindromo_PU.xcdatamodeld */,
+			);
+			path = Polindromo_PU;
+			sourceTree = "<group>";
+		};
+		7704FA212CC0767E00A1D977 /* Polindromo_PUTests */ = {
+			isa = PBXGroup;
+			children = (
+				7704FA222CC0767E00A1D977 /* Polindromo_PUTests.swift */,
+			);
+			path = Polindromo_PUTests;
+			sourceTree = "<group>";
+		};
+		7704FA2B2CC0767F00A1D977 /* Polindromo_PUUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7704FA2C2CC0767F00A1D977 /* Polindromo_PUUITests.swift */,
+				7704FA2E2CC0767F00A1D977 /* Polindromo_PUUITestsLaunchTests.swift */,
+			);
+			path = Polindromo_PUUITests;
+			sourceTree = "<group>";
+		};
+		7704FA3B2CC0768D00A1D977 /* Polindromo_class */ = {
+			isa = PBXGroup;
+			children = (
+				7704FA3C2CC076AE00A1D977 /* polindromo.swift */,
+			);
+			path = Polindromo_class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7704FA042CC0767800A1D977 /* Polindromo_PU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7704FA322CC0767F00A1D977 /* Build configuration list for PBXNativeTarget "Polindromo_PU" */;
+			buildPhases = (
+				7704FA012CC0767800A1D977 /* Sources */,
+				7704FA022CC0767800A1D977 /* Frameworks */,
+				7704FA032CC0767800A1D977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polindromo_PU;
+			productName = Polindromo_PU;
+			productReference = 7704FA052CC0767800A1D977 /* Polindromo_PU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7704FA1D2CC0767E00A1D977 /* Polindromo_PUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7704FA352CC0767F00A1D977 /* Build configuration list for PBXNativeTarget "Polindromo_PUTests" */;
+			buildPhases = (
+				7704FA1A2CC0767E00A1D977 /* Sources */,
+				7704FA1B2CC0767E00A1D977 /* Frameworks */,
+				7704FA1C2CC0767E00A1D977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7704FA202CC0767E00A1D977 /* PBXTargetDependency */,
+			);
+			name = Polindromo_PUTests;
+			productName = Polindromo_PUTests;
+			productReference = 7704FA1E2CC0767E00A1D977 /* Polindromo_PUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7704FA272CC0767F00A1D977 /* Polindromo_PUUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7704FA382CC0767F00A1D977 /* Build configuration list for PBXNativeTarget "Polindromo_PUUITests" */;
+			buildPhases = (
+				7704FA242CC0767F00A1D977 /* Sources */,
+				7704FA252CC0767F00A1D977 /* Frameworks */,
+				7704FA262CC0767F00A1D977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7704FA2A2CC0767F00A1D977 /* PBXTargetDependency */,
+			);
+			name = Polindromo_PUUITests;
+			productName = Polindromo_PUUITests;
+			productReference = 7704FA282CC0767F00A1D977 /* Polindromo_PUUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7704F9FD2CC0767800A1D977 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7704FA042CC0767800A1D977 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					7704FA1D2CC0767E00A1D977 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7704FA042CC0767800A1D977;
+					};
+					7704FA272CC0767F00A1D977 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7704FA042CC0767800A1D977;
+					};
+				};
+			};
+			buildConfigurationList = 7704FA002CC0767800A1D977 /* Build configuration list for PBXProject "Polindromo_PU" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7704F9FC2CC0767800A1D977;
+			productRefGroup = 7704FA062CC0767800A1D977 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7704FA042CC0767800A1D977 /* Polindromo_PU */,
+				7704FA1D2CC0767E00A1D977 /* Polindromo_PUTests */,
+				7704FA272CC0767F00A1D977 /* Polindromo_PUUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7704FA032CC0767800A1D977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7704FA182CC0767E00A1D977 /* LaunchScreen.storyboard in Resources */,
+				7704FA152CC0767E00A1D977 /* Assets.xcassets in Resources */,
+				7704FA102CC0767800A1D977 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7704FA1C2CC0767E00A1D977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7704FA262CC0767F00A1D977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7704FA012CC0767800A1D977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7704FA0D2CC0767800A1D977 /* ViewController.swift in Sources */,
+				7704FA132CC0767800A1D977 /* Polindromo_PU.xcdatamodeld in Sources */,
+				7704FA092CC0767800A1D977 /* AppDelegate.swift in Sources */,
+				7704FA0B2CC0767800A1D977 /* SceneDelegate.swift in Sources */,
+				7704FA3D2CC076AE00A1D977 /* polindromo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7704FA1A2CC0767E00A1D977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7704FA232CC0767E00A1D977 /* Polindromo_PUTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7704FA242CC0767F00A1D977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7704FA2F2CC0767F00A1D977 /* Polindromo_PUUITestsLaunchTests.swift in Sources */,
+				7704FA2D2CC0767F00A1D977 /* Polindromo_PUUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7704FA202CC0767E00A1D977 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7704FA042CC0767800A1D977 /* Polindromo_PU */;
+			targetProxy = 7704FA1F2CC0767E00A1D977 /* PBXContainerItemProxy */;
+		};
+		7704FA2A2CC0767F00A1D977 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7704FA042CC0767800A1D977 /* Polindromo_PU */;
+			targetProxy = 7704FA292CC0767F00A1D977 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7704FA0E2CC0767800A1D977 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7704FA0F2CC0767800A1D977 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7704FA162CC0767E00A1D977 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7704FA172CC0767E00A1D977 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7704FA302CC0767F00A1D977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7704FA312CC0767F00A1D977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7704FA332CC0767F00A1D977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Polindromo_PU/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uam.Polindromo-PU";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7704FA342CC0767F00A1D977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Polindromo_PU/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uam.Polindromo-PU";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7704FA362CC0767F00A1D977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uam.Polindromo-PUTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Polindromo_PU.app/Polindromo_PU";
+			};
+			name = Debug;
+		};
+		7704FA372CC0767F00A1D977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uam.Polindromo-PUTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Polindromo_PU.app/Polindromo_PU";
+			};
+			name = Release;
+		};
+		7704FA392CC0767F00A1D977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uam.Polindromo-PUUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Polindromo_PU;
+			};
+			name = Debug;
+		};
+		7704FA3A2CC0767F00A1D977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uam.Polindromo-PUUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Polindromo_PU;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7704FA002CC0767800A1D977 /* Build configuration list for PBXProject "Polindromo_PU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7704FA302CC0767F00A1D977 /* Debug */,
+				7704FA312CC0767F00A1D977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7704FA322CC0767F00A1D977 /* Build configuration list for PBXNativeTarget "Polindromo_PU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7704FA332CC0767F00A1D977 /* Debug */,
+				7704FA342CC0767F00A1D977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7704FA352CC0767F00A1D977 /* Build configuration list for PBXNativeTarget "Polindromo_PUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7704FA362CC0767F00A1D977 /* Debug */,
+				7704FA372CC0767F00A1D977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7704FA382CC0767F00A1D977 /* Build configuration list for PBXNativeTarget "Polindromo_PUUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7704FA392CC0767F00A1D977 /* Debug */,
+				7704FA3A2CC0767F00A1D977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7704FA112CC0767800A1D977 /* Polindromo_PU.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7704FA122CC0767800A1D977 /* Polindromo_PU.xcdatamodel */,
+			);
+			currentVersion = 7704FA122CC0767800A1D977 /* Polindromo_PU.xcdatamodel */;
+			path = Polindromo_PU.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7704F9FD2CC0767800A1D977 /* Project object */;
+}
